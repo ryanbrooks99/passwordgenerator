@@ -1,1 +1,2 @@
-# passwordgenerator
+# Password Generator
+# The purpose of this assignment was to create a Javascript based random password generator. Upon clicking the "Generate Password" button, the user is prompted to choose a password length between 8 and 128 characters. They are then provided a confirm/Boolean as to whether or not they would like to use numerics, uppercase, lowercase, or special characters. Once the PC has generated the random code, it then displays in the browser window.
