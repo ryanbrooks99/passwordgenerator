@@ -13,6 +13,10 @@ function generatePassword() {
   var numberArray = []
   var password =""
 
+  if (numberofCharacters < 8 || numberofCharacters > 128) {
+    alert("You must choose between 8 and 128 characters!")
+  }
+
   if(confirm('Would you like to use numbers?')) {
     pickedValues.push(number)
   }
@@ -29,6 +33,7 @@ function generatePassword() {
     pickedValues.push(spec)
   }
   
+
   console.log(numberofCharacters, pickedValues)
   
   
